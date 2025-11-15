@@ -1,2 +1,2 @@
-# Sumant_Ethan_QSS20FinalProject
-Investigating changes in county-level voting for presidential elections amidst major storm events 
+# Turbulent Politics: How storms do or don't affect voting behavior in presidential elections
+Investigating changes in county-level voting during presidential elections using aggregate crop/property damage and deaths caused by storms leading up to voting
