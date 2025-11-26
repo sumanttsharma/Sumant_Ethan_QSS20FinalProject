@@ -38,10 +38,7 @@ In the wake of natural disasters, districts that were most affected will be more
 ---
 
 ## Directory
-
-We are analyzing U.S. county-level storm events and their potential influence on presidential election voting behavior from 2000 to 2024. In the GitHub, we provide preprocessed files and visualizations for ease of analysis and reproducibility. While raw storm data CSVs are provided, the full dataset can also be obtained externally from the NOAA Storm Events database above.  
-
-GitHub Directory:
+```
 
 ├── Figures/ # Plots and visualizations
 │ ├── AggCropDamage_Versus_Change_Democratic_votepercent.png
@@ -67,6 +64,15 @@ GitHub Directory:
 │ └── ... (2002–2024)
 ├── QSS20Final.ipynb # Jupyter Notebook with preprocessing, analysis, and modeling
 └── README.md # This file
+```
+
+## Notes on Data Storage and Processing
+
+We are analyzing U.S. county-level storm events and their potential influence on presidential election voting behavior from 2000 to 2024. In the GitHub, we provide preprocessed files and visualizations for ease of analysis and reproducibility. While raw storm data CSVs are provided, the full dataset can also be obtained externally from the NOAA Storm Events database above.  
+
+We also attempted to construct a forecast-zone-to-county crosswalk for hurricane coverage using the file
+/NWS_Correlation_File/nws_county_correlation.dbx.
+After working on in though, we were not able to integrate this in a way that would be meaningfully usable analysis on county-level hurricane aggregation, and we ultimately did not use it in the final analysis. 
 
 ---
 
